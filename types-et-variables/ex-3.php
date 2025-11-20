@@ -1,9 +1,9 @@
 <?php
-	$nb_tab = [23, 45.5, 18];
-    print_r($nb_tab);
+	$animal = [
+    "species" => "Chat",
+    "name" => "Curly",
+    "age" => "10"
+    ];
 
-    echo "<br>";
-
-    $str_tab = ["Cat", "Dog", "Rabbit"];
-    print_r($str_tab);
+    print_r($animal);
 ?>
